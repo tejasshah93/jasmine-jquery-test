@@ -1,14 +1,14 @@
 <html>
 </head>
-	<title>Demo Form</title>
-	<script type="text/javascript">
+    <title>Demo Form</title>
+    <script type="text/javascript">
     function hide() {
 	    $("p").hide();
 	    $( ".div2" ).text("Hide button clicked");
 	    $( ".div3" ).text("");
 	}
 
-	function show() {
+    function show() {
 	    $("p").show();
 	    $( ".div2" ).text("Show & Print button clicked");
 	    $( ".div3" ).text($( ".textField" ).val());
@@ -18,7 +18,7 @@
     <script type="text/javascript" src="./lib/jquery.js"></script>
 </head>
 <body>
-	<p>This is a paragraph.</p>       
+    <p>This is a paragraph.</p>       
     <input type="text" class="textField">          
     <br>                                             
     <button class="hideButton" onclick=hide()>Hide</button>              
